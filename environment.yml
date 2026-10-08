@@ -1,0 +1,21 @@
+# Environment for analysis.ipynb and download_data.py
+# Create:  conda env create -f environment.yml
+name: perturb
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - scikit-learn
+  - statsmodels
+  - matplotlib
+  - scanpy
+  - anndata
+  - jupyterlab
+  - ipykernel
+  - pip:
+      - pertpy
+      - decoupler>=2.0
