@@ -78,6 +78,4 @@ analysis.py         full analysis as a script
 analysis.ipynb      same analysis as a notebook, with outputs
 download_data.py    downloads the dataset (for the notebook)
 environment.yml     conda environment
-data/               dataset (not tracked)
-results/            figures and tables (not tracked)
 ```
